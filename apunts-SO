@@ -1,0 +1,40 @@
+al obrir la consola ens apareix un nom
+el primer nom es el de usuari i el segon el de la maquina
+nom@maquina:~$
+$: usuari normal
+~: Significa que estas dins de la carpeta del usuari
+sudo: es per administrar
+2 pasos per actualitzar el sistema
+1) sudo apt-get update
+2)sudo apt-get uprade
+Instal·lar un programa
+1)sudo apt-get install (nom del programa)
+ls: per llistar tot el contingut del directori
+blau: carpetes
+rose: archius diversos
+vermell: fixer comprimit
+blau clar: enllaç
+verd: executable
+groc: fitxers que representen dispositius
+cd (nom de carpeta) per entrar-hi
+cd .. per sorti-hi
+per borrar
+rm (nom del fitxer) 
+crear carpeta
+mkdir (nom per la carpeta)
+per borrar una carpeta
+rmdir (nom de la carpeta) (pero ha de estar buida)
+sudo ~ administrador ~ permisos ~ et fots on et rota del pebrots
+dmesg: mostra el registre d'inici del sistema
+Estructura de directoris
+der: fitxers que representen els dispositius
+home: carpetes personals dels usuaris del sistema 
+etc: fitxers de configuracio
+tmp: fitxer temporals, s'esborren al reinicia la maquia <- tothom u pot veure (tan lectura com escritura)
+usr: fitxers de les aplicacions, s'emblat a arxius de programas
+root: carpeta personal de l'usuari root
+media: es montan els dispositius extraibles
+var: semblats als arxius de les aplicacions
+lib: biblioteques de codi (no les farem servir)
+sys y proc: carpetes virtuals especials creades per el kernel
+kernel: nucli del S.O.
